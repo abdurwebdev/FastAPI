@@ -7,7 +7,7 @@ from app.database.database import engine
 from app.database.database import SessionLocal
 from app.models.jobs import Job
 from app.database.database import get_db
-
+from fastapi import Depends
 app = FastAPI()
 
 try:
